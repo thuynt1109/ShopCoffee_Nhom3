@@ -1,4 +1,4 @@
- 
+
  @extends('main_layout')
  @section('content')
  <div class="tm-main-section light-gray-bg">
@@ -8,14 +8,14 @@
             <h2 class="tm-section-header gold-text tm-handwriting-font">Variety of Menus</h2>
             <h2>Cafe House</h2>
             <p class="tm-welcome-description">This is free HTML5 website template from <span class="blue-text">template</span><span class="green-text">mo</span>. Fndimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Ettiam sit amet orci eget eros faucibus tincidunt.</p>
-            <a href="#" class="tm-more-button margin-top-30">Read More</a> 
+            <a href="#" class="tm-more-button margin-top-30">Read More</a>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-4 tm-welcome-img-container">
             <div class="inline-block shadow-img">
-              <img src="img/1.jpg" alt="Image" class="img-circle img-thumbnail">  
-            </div>              
-          </div>            
-        </section>        -->   
+              <img src="img/1.jpg" alt="Image" class="img-circle img-thumbnail">
+            </div>
+          </div>
+        </section>        -->
         <section class="tm-section row">
           <div class="col-lg-12 tm-section-header-container margin-bottom-30">
             <h2 class="tm-section-header gold-text tm-handwriting-font"><img src={{("public/Page/img/logo.png")}} alt="Logo" class="tm-site-logo"> Our Menus</h2>
@@ -23,7 +23,7 @@
           </div>
           <div>
             <div class="col-lg-3 col-md-3">
-              <div class="tm-position-relative margin-bottom-30">              
+              <div class="tm-position-relative margin-bottom-30">
                 <nav class="tm-side-menu">
                   <ul>
                     <li><a href="#" class="active">Affogato</a></li>
@@ -37,11 +37,11 @@
                     <li><a href="#">Instant coffee</a></li>
                     <li><a href="#">Mocha</a></li>
                     <li><a href="#">black coffee</a></li>
-                  </ul>              
-                </nav>    
+                  </ul>
+                </nav>
                 <img src={{("public/Page/img/vertical-menu-bg.png")}} alt="Menu bg" class="tm-side-menu-bg">
-              </div>  
-            </div>            
+              </div>
+            </div>
             <div class="tm-menu-product-content col-lg-9 col-md-9"> <!-- menu content -->
               <div class="tm-product">
                 <img src={{("public/Page/img/menu-1.jpg")}} alt="Product">
@@ -94,8 +94,8 @@
                 </div>
               </div>
             </div>
-          </div>          
+          </div>
         </section>
       </div>
-    </div> 
-     @endsection       
+    </div>
+     @endsection
