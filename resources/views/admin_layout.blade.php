@@ -16,6 +16,8 @@
     <link href="{{('public/Admin/css/now-ui-dashboard.css?v=1.0.1')}}" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="{{('public/Admin/demo/demo.css')}}" rel="stylesheet" />
+    <link href="{{('public/Admin/css/category.css')}}" rel="stylesheet" />
+
 </head>
 
 <body class="">

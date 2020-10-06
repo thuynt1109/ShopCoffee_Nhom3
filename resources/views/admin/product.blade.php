@@ -6,8 +6,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="card ">
-                        <div class="card-header ">
+                        <div class="card-header d-flex">
                         <h4 class="card-title">All Product</h4>
+                        <button class="btn btn-primary btn--icon add-btn"></button>
                         </div>
                         <div class="card-body ">
                             <div class="table-responsive">
@@ -53,9 +54,9 @@
                                             </td>
                                             <td>
                                                 <a href="{{URL::to('/edit-product')}}" class="active styling-edit">
-                                                    <i class="fas fa-edit"></i></a>
+                                                    <i class="fas fa-edit icon"></i></a>
                                                 <a onclick="return confirm('Are you sure to delete this product?')" href="{{URL::to('/delete-product')}}" class="active styling-edit">
-                                                    <i class="fa fa-times text-danger text"></i>
+                                                    <i class="fa fa-times icon text-danger text"></i>
                                                 </a>
                                             </td>
 
